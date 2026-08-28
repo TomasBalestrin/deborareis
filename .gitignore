@@ -1,0 +1,8 @@
+# fotos originais (fonte, ~54 MB em HEIC/JPG de câmera)
+fotos debora/
+fotos resultados/
+
+# artefatos locais
+site/_preview.jpg
+.DS_Store
+**/.DS_Store
