@@ -1,18 +1,18 @@
 # A Arte da Imagem — site reorganizado
 
-Página estática, sem dependências de build. Basta subir a pasta `site/` inteira.
+Página estática, sem dependências de build. Os arquivos ficam na raiz do repositório,
+então Vercel, Netlify e GitHub Pages publicam sem nenhuma configuração.
 
 ## Estrutura
 
 ```
-site/
-├── index.html
-├── assets/
-│   ├── css/style.css
-│   ├── js/main.js
-│   ├── fonts/   Runalto.ttf, Qubic-Grid-Variable.ttf   (fontes da própria marca)
-│   └── img/     antes-1..5, depois-1..5, bastidores-1..6, debora-retrato, logo, icon
-└── LEIA-ME.md
+index.html
+assets/
+├── css/style.css
+├── js/main.js
+├── fonts/   Runalto.ttf, Qubic-Grid-Variable.ttf   (fontes da própria marca)
+└── img/     antes-1..5, depois-1..5, bastidores-1..6, debora-retrato, logo, icon
+LEIA-ME.md
 ```
 
 ## O que precisa ser preenchido antes de publicar
@@ -61,5 +61,5 @@ Para achar todas de uma vez: `grep -n 'class="todo"' index.html`
 ## Se for republicar dentro do WordPress/Elementor
 
 O conteúdo e a ordem das seções deste `index.html` servem como roteiro. O caminho mais direto é
-publicar esta pasta como uma página estática e apontar o domínio/subpasta para ela — o Elementor não
-reproduz o comparador antes/depois nem a tipografia sem plugin extra.
+publicar este repositório como página estática e apontar o domínio ou a subpasta para ele. O Elementor
+não reproduz o comparador antes/depois nem a tipografia sem plugin extra.
