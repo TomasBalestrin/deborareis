@@ -18,7 +18,11 @@
     { n: 2, cap: 'Loiro com raiz trabalhada' },
     { n: 3, cap: 'Loiro iluminado e movimento' },
     { n: 4, cap: 'Comprimento com luz' },
-    { n: 5, cap: 'Do liso ao caramelo' }
+    { n: 5, cap: 'Do liso ao caramelo' },
+    { n: 6, cap: 'Do acinzentado ao mel' },
+    { n: 7, cap: 'Forma e luz no castanho' },
+    { n: 8, cap: 'Loiro com raiz esfumada' },
+    { n: 9, cap: 'Loiro uniforme com franja' }
   ];
 
   var ba = document.getElementById('ba');
